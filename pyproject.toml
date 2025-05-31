@@ -34,7 +34,7 @@ uvicorn = "*"
 types-toml = "*"
 numpy = "*"
 json-repair = "*"
-browsergym-core = "0.13.3"                           # integrate browsergym-core as the browsing interface
+browsergym-core = ">=0.13.3"                           # integrate browsergym-core as the browsing interface
 html2text = "*"
 e2b = ">=1.0.5,<1.4.0"
 pexpect = "*"
@@ -85,6 +85,7 @@ anyio = "4.9.0"
 pythonnet = "*"
 fastmcp = "^2.3.3"
 mcpm = "1.12.0"
+pillow = ">=10.1"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "0.11.11"
@@ -125,10 +126,10 @@ gdown = "*"
 matplotlib = "*"
 seaborn = "*"
 tabulate = "*"
-browsergym = "0.13.3"
-browsergym-webarena = "0.13.3"
-browsergym-miniwob = "0.13.3"
-browsergym-visualwebarena = "0.13.3"
+browsergym = ">=0.13.3"
+browsergym-webarena = ">=0.13.3"
+browsergym-miniwob = ">=0.13.3"
+browsergym-visualwebarena = ">=0.13.3"
 boto3-stubs = { extras = [ "s3" ], version = "^1.37.19" }
 pyarrow = "20.0.0"                                                             # transitive dependency, pinned here to avoid conflicts
 datasets = "*"
